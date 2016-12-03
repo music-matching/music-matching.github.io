@@ -6,7 +6,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body {
-    background-image: url("post_it.jpg");
+    background-image: url("../post_it.jpg");
 	background-size:cover;
 	background-position:center;
 	width:100%;
