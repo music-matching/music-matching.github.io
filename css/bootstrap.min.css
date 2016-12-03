@@ -6,7 +6,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body {
-    background-image: url("../post_it.jpg");
+/*     background-image: url("../post_it.jpg"); */
 	background-size:cover;
 /* 	background-position:center; */
 	width:100%;
@@ -14,6 +14,16 @@ body {
 	position:absolute;
 	top:0;
 	left:0;
+}
+
+#homepage{
+    background-image: url("../post_it.jpg");
+
+}
+
+#christmas{
+    background-image: url("../tree.jpg");
+
 }
 .center_form{
     margin: auto;
