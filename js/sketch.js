@@ -8,7 +8,7 @@ var state = 0; // mousePress will increment from Record, to Stop, to Play
 
 function setup() {
   createCanvas(400,400);
-//    background(200);
+    background(0,0,0,0);
 //   fill(0);
   text('Enable mic and click the mouse to begin recording', 20, 20);
 
@@ -28,20 +28,7 @@ function setup() {
   soundFile = new p5.SoundFile();
 }
 
-function draw() {
-  background(0,0,0,0);
- 
 
-
-  // Get the overall volume (between 0 and 1.0)
-  var vol = mic.getLevel();
-  fill(127);
-  stroke(0);
-
-  // Draw an ellipse with height based on volume
-  var h = map(vol, 0, 1, height, 0);
-  ellipse(width/2, h - 25, 50, 50);
-}
 
 function mousePressed() {
   // use the '.enabled' boolean to make sure user enabled the mic (otherwise we'd record silence)
