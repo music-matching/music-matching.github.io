@@ -1,3 +1,7 @@
+function setup() {
+  
+}
+
 var mic, recorder, soundFile;
 
 var state = 0; // mousePress will increment from Record, to Stop, to Play
