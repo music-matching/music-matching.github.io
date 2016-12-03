@@ -6,6 +6,10 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 
+.center_form{
+    margin: auto;
+	        text-align: center;
+}
 
 
 form {
