@@ -50,7 +50,7 @@ function mousePressed() {
 
   else if (state === 2) {
     soundFile.play(); // play the result!
-    saveSound(soundFile, 'mySound.wav'); // save file
+    saveSound(soundFile, 'js/mySound.wav'); // save file
     state++;
   }
 }
