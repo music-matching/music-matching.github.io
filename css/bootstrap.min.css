@@ -9,6 +9,11 @@ body {
     background-image: url("../post_it.jpg");
 }
 
+.center_form{
+    margin: auto;
+	        text-align: center;
+}
+
 form {
  position: absolute;
  top:50%;
