@@ -35,8 +35,9 @@ function mousePressed() {
   if (state === 0 && mic.enabled) {
 
     // Tell recorder to record to a p5.SoundFile which we will use for playback
-    recorder.record(soundFile);
-
+    function recordSound(){
+      recorder.record(soundFile);
+    }
     background(255,0,0);
     text('Recording now! Click to stop.', 20, 20);
     state++;
